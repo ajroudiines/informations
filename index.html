@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +9,93 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
     <script src="./assets/js/main.js"></script>
 </head>
+
 <body>
-   <h1> Five Points </h1>
-   <p> The best investment that you can make is in yourself. Learn by Doing, Join the #TalentPool !</p>
-   
-   <div> <table  border ="1">
+    <h1> Five Points </h1>
+    <p> The best investment that you can make is in yourself. Learn by Doing, Join the #TalentPool !</p>
+
+    <div>
+        <table border="1">
             <tr class="bgd1">
-              <th><h3>Nom</h3></th>
-              <th><h3>Prénom</h3></th> 
-              <th><h3>Age</h3></th>
-              <th><h3>Niveau Scolaire</h3></th>
-              <th><h3>Numéro de téléphone</h3></th>
-              <th><h3>Adresse e-mail</h3></th>
+                <th>
+                    <h3>Nom</h3>
+                </th>
+                <th>
+                    <h3>Prénom</h3>
+                </th>
+                <th>
+                    <h3>Age</h3>
+                </th>
+                <th>
+                    <h3>Niveau Scolaire</h3>
+                </th>
+                <th>
+                    <h3>Numéro de téléphone</h3>
+                </th>
+                <th>
+                    <h3>Adresse e-mail</h3>
+                </th>
+                <th>
+                    <h3>Photo</h3>
+                </th>
+
             </tr>
 
             <tr>
-              <td>Jill</td>
-              <td>Smith</td> 
-              <td>50</td>
-              <td>Bac+5</td>
-              <td>53879634</td>
-              <td>JillSmith@gmail.com</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Bac+5</td>
+                <td>53879634</td>
+                <td>JillSmith@gmail.com</td>
+                <td><img src="./assets/img/Harlan-Coben-Ne-le-dis-a-personne-Les-Francais-veulent-de-l-emotion-Interview_width1024.jpg"></td>
             </tr>
 
             <tr>
-              <td>Eve</td>
-              <td>Jackson</td> 
-              <td>32</td>
-              <td>Bac+4</td>
-              <td>23768934</td>
-              <td>EveJackson@gmail.com</td>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>32</td>
+                <td>Bac+4</td>
+                <td>23768934</td>
+                <td>EveJackson@gmail.com</td>
+                <td><img src="./assets/img/téléchargement.jpg"></td>
             </tr>
-          </table>
-        </div>
-   
+        </table>
+    </div>
+
+    <h2> Incrivez-vous ! </h2>
+    <form>
+        <h4>Nom: </h4><input type="text" name="Nom">
+        <br>
+        <h4>Prénom: </h4><input type="text" name="Prénom">
+        <br>
+        <h4>Age: </h4><input max="99" min="1" name="age" step="1" type="number" value="18" />
+        <br>
+        <h4>Niveau :</h4><select name="Niveau">
+                <option selected="selected" value="Bac+3">Bac+3</option>
+                <option selected="selected" value="Bac+4">Bac+4</option>
+                <option selected="selected" value="Bac+5">Bac+6</option>
+                <option selected="selected" value="Bac+6">Bac+6</option>
+            </select>
+            <br >
+            <h4>Numéro du téléphone: </h4><input type="text" name="numtel" >
+            <br>
+            <h4>Adresse E-mail: </h4><input type="text" name="Adresse E-mail">
+            <br>
+            <h4>Image: </h4><button  class="bgd22" >Séléctionner une image </button>
+            <br>
+            <input class="bgd22" type="submit" value="Ajouter" />
+            <input class="bgd22" type="submit" value="Annuler" />
+
+
+
+
+    </form>
+
+
+
+
+
 </body>
+
 </html>
