@@ -1,0 +1,23 @@
+body 
+{
+background-image: url("../img/arriere-plan-afges.jpg");
+width: 100%;
+text-align: center;
+}
+h1{
+    color: red;
+}
+th{
+    color:gray;
+}
+table,th,td{
+
+border: 1px solid black;
+border-collapse: collapse;
+}
+.bgd1{
+    background-color:blue;
+}
+div{
+    margin-left: 25%;
+}
